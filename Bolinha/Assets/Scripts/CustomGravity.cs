@@ -20,7 +20,7 @@ public static class CustomGravity {
 		);
 		sources.Remove(source);
 	}
-
+	
 	public static Vector3 GetGravity (Vector3 position) {
 		Vector3 g = Vector3.zero;
 		for (int i = 0; i < sources.Count; i++) {
