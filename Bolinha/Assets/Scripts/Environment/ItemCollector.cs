@@ -13,7 +13,7 @@ public class ItemCollector : MonoBehaviour
     public void Collect()
     {
         score++;
-        scoreText.text = "SCORE: " + score.ToString(); 
+        scoreText.text = "SCORE: " + score.ToString() + " / 8"; 
         Destroy(item);
     }
 }
